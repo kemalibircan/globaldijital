@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "login": "Giriş Yap"
+  },
+  "hero": {
+    "title": "Dijital Çözümler",
+    "subtitle": "İşiniz İçin",
+    "description": "Küçük ve orta ölçekli işletmeler için profesyonel web siteleri, mobil uygulamalar, SEO optimizasyonu ve dijital pazarlama hizmetleri.",
+    "viewServices": "Hizmetleri Görüntüle",
+    "getStarted": "Başlayın",
+    "dreamStep": "🚀 Hayalinize Bir Adım Yakınsınız",
+    "dreamDescription": "Dijital dönüşüm yolculuğunuzda size rehberlik ediyoruz"
+  }
+}
+

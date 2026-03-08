@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden"
+  },
+  "hero": {
+    "title": "Digitale Lösungen",
+    "subtitle": "Für Ihr Unternehmen",
+    "description": "Professionelle Websites, mobile Apps, SEO-Optimierung und digitale Marketing-Dienstleistungen für kleine und mittlere Unternehmen.",
+    "viewServices": "Dienstleistungen ansehen",
+    "getStarted": "Loslegen",
+    "dreamStep": "🚀 Einen Schritt Näher An Ihrem Traum",
+    "dreamDescription": "Wir begleiten Sie auf Ihrer digitalen Transformationsreise"
+  }
+}
+
