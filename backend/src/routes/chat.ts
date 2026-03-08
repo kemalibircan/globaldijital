@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import { body, validationResult } from 'express-validator';
 import OpenAI from 'openai';
 import { pool } from '../config/database';
@@ -19,7 +19,7 @@ router.post(
   [
     body('message').trim().notEmpty().withMessage('Message is required'),
   ],
-  async (req, res) => {
+  async (req: Request, res: Response) => {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {

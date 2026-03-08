@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import { body, validationResult } from 'express-validator';
 import { pool } from '../config/database';
 
@@ -12,7 +12,7 @@ router.post(
     body('email').isEmail().normalizeEmail(),
     body('message').trim().notEmpty().withMessage('Message is required'),
   ],
-  async (req, res) => {
+  async (req: Request, res: Response) => {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
@@ -40,7 +40,7 @@ router.post(
 );
 
 // Get all contact submissions (admin only - would need auth middleware in production)
-router.get('/', async (req, res) => {
+router.get('/', async (req: Request, res: Response) => {
   try {
     const result = await pool.query(
       'SELECT * FROM contact_submissions ORDER BY created_at DESC'
